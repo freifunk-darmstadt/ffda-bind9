@@ -11,6 +11,8 @@ Hierzu im server-Block folgendes einfügen:
 ```
 
 Außerdem muss das Zonen-File auf der Root-Ebene noch eingebunden werden.
+```
     include: /etc/unbound/ffda.conf
+```
 
 Hierzu sollte die Konfiguration aus dem Git-Repository einfach gesymlinked werden.
