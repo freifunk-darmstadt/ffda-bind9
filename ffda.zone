@@ -1,0 +1,49 @@
+$ORIGIN ffda.
+$TTL 1h
+ffda.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
+                2015010401 ;   Serial - date by convention
+                1h         ;   Refresh
+                3m	       ;   Retry
+                1w         ;   Expire
+                1m         ;   Negative cache TTL
+                )
+
+; authoritative name servers
+ffda.		NS		gw01
+ffda.		NS		gw02
+
+ns1			A	 	10.223.0.1
+			AAAA	fdca:ffee:ffda::1
+ns2			A	 	10.223.0.2
+			AAAA	fdca:ffee:ffda::2
+
+; gateways
+gw01		A		10.223.0.1
+			AAAA	fdca:ffee:ffda::1
+
+gw02		A		10.223.0.2
+			AAAA	fdca:ffee:ffda::2
+
+gw03		A		10.223.0.3
+			AAAA	fdca:ffee:ffda::3
+
+gw04		A		10.223.0.4
+			AAAA	fdca:ffee:ffda::4
+
+; nextnode
+node		A		10.223.254.254
+			AAAA	fdca:ffee:ffda::ffff
+
+; infrastructure
+0.ntp		CNAME	gw01
+updates		CNAME	gw04
+uwh.updates	CNAME	gw01
+
+; servers
+mumble		CNAME	gw01
+wiki		CNAME	gw01
+map			CNAME	gw04
+
+luelistan	A		10.223.1.1
+freefile	A		10.223.1.2
+
