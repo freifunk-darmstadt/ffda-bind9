@@ -1,7 +1,7 @@
 $ORIGIN ffda.
 $TTL 1h
 ffda.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
-                2015010401 ;   Serial - date by convention
+                2015010801 ;   Serial - date by convention
                 1h         ;   Refresh
                 3m	       ;   Retry
                 1w         ;   Expire
@@ -42,8 +42,9 @@ uwh.updates	CNAME	gw01
 ; servers
 mumble		CNAME	gw01
 wiki		CNAME	gw01
-map			CNAME	gw04
+map		CNAME	gw04
 
-luelistan	A		10.223.1.1
-freefile	A		10.223.1.2
+luelistan	A	10.223.1.1
+freefile	A	10.223.1.2
+cats		CNAME	gw02
 
