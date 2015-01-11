@@ -40,6 +40,7 @@ updates		CNAME	gw04
 uwh.updates	CNAME	gw01
 
 ; servers
+chat		CNAME	gw01
 mumble		CNAME	gw01
 wiki		CNAME	gw01
 map		CNAME	gw04
