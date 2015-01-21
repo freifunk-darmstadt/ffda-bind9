@@ -36,7 +36,7 @@ node		A		10.223.254.254
 
 ; infrastructure
 0.ntp		CNAME	gw01
-updates		CNAME	gw04
+updates		CNAME	gw03
 uwh.updates	CNAME	gw01
 
 ; servers
