@@ -7,8 +7,8 @@ a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.ne
                 1m         ;   Negative cache TTL
                 )
 
-			NS		gw01.ffda.
-			NS		gw02.ffda.
+		NS		gw01.ffda.
+		NS		gw02.ffda.
 			
 ; gateways
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		gw01.ffda.

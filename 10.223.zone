@@ -7,18 +7,18 @@ $TTL 1h
                 1m         ;   Negative cache TTL
                 )
 
-			NS		gw01.ffda.
-			NS		gw02.ffda.
+		NS		gw01.ffda.
+		NS		gw02.ffda.
 			
 ; gateways
-1.0			PTR		gw01.ffda.
-2.0			PTR		gw02.ffda.
-3.0			PTR		gw03.ffda.
-4.0			PTR		gw04.ffda.
+1.0		PTR		gw01.ffda.
+2.0		PTR		gw02.ffda.
+3.0		PTR		gw03.ffda.
+4.0		PTR		gw04.ffda.
 
 ; nextnode
 254.254		PTR		node.ffda.
 
 ; servers
-1.1			PTR		luelistan.ffda.
-2.1			PTR		freefile.ffda.
+1.1		PTR		luelistan.ffda.
+2.1		PTR		freefile.ffda.
