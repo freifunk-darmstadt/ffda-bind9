@@ -31,7 +31,7 @@ gw04		A	10.223.0.4
 		AAAA	fdca:ffee:ffda::4
 
 ; nextnode
-node		A	10.223.254.254
+nextnode	A	10.223.254.254
 		AAAA	fdca:ffee:ffda::ffff
 
 ; infrastructure
