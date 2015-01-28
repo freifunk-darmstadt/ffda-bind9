@@ -17,7 +17,7 @@ $TTL 1h
 4.0		PTR		gw04.ffda.
 
 ; nextnode
-254.254		PTR		node.ffda.
+254.254		PTR		nextnode.ffda.
 
 ; servers
 1.1		PTR		luelistan.ffda.
