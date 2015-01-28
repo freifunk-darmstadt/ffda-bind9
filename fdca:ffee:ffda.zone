@@ -1,6 +1,6 @@
 $TTL 1h
 a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
-                2015010901 ;   Serial - date by convention
+                2015012800 ;   Serial - date by convention
                 1h         ;   Refresh
                 3m	       ;   Retry
                 1w         ;   Expire
@@ -17,7 +17,7 @@ a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.ne
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		gw04.ffda.
 
 ; nextnode
-f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		node.ffda.
+f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		nextnode.ffda.
 
 ; servers
 
