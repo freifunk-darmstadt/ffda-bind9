@@ -22,4 +22,4 @@ $TTL 1h
 ; servers
 1.1		PTR		luelistan.ffda.
 2.1		PTR		freefile.ffda.
-5.1		PTR		nethack.ffda
+5.1		PTR		nethack.ffda.
