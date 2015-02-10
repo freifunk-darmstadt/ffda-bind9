@@ -43,8 +43,9 @@ uwh.updates	CNAME	gw01
 chat		CNAME	gw01
 mumble		CNAME	gw01
 wiki		CNAME	gw01
-map			CNAME	gw04
+map		CNAME	gw04
 maps		CNAME	gw04
+smokeping	CNAME	gw01
 
 luelistan	A	10.223.1.1
 freefile	A	10.223.1.2
