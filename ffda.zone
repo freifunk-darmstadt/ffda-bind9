@@ -1,7 +1,7 @@
 $ORIGIN ffda.
 $TTL 1h
 ffda.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
-                2015020601 ;   Serial - date by convention
+                2015021701 ;   Serial - date by convention
                 1h         ;   Refresh
                 3m	       ;   Retry
                 1w         ;   Expire
