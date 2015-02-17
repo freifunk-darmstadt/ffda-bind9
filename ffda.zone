@@ -38,14 +38,16 @@ nextnode	A	10.223.254.254
 0.ntp		CNAME	gw01
 updates		CNAME	gw03
 uwh.updates	CNAME	gw01
+openwrt.proxy	CNAME	gw01
 
 ; servers
 chat		CNAME	gw01
 mumble		CNAME	gw01
-wiki		CNAME	gw01
 map		CNAME	gw04
 maps		CNAME	gw04
 smokeping	CNAME	gw01
+wiki		CNAME	gw01
+
 
 luelistan	A	10.223.1.1
 freefile	A	10.223.1.2
