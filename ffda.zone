@@ -42,6 +42,7 @@ openwrt.proxy	CNAME	gw01
 
 ; servers
 chat		CNAME	gw01
+lg		CNAME	gw04
 mumble		CNAME	gw01
 map		CNAME	gw04
 maps		CNAME	gw04
