@@ -1,9 +1,9 @@
 $ORIGIN ffda.
 $TTL 1h
 ffda.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
-                2015021701 ;   Serial - date by convention
+                2015030401 ;   Serial - date by convention
                 1h         ;   Refresh
-                3m	       ;   Retry
+                3m	   ;   Retry
                 1w         ;   Expire
                 1m         ;   Negative cache TTL
                 )
