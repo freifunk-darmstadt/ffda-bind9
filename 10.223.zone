@@ -1,25 +1,28 @@
 $TTL 1h
-223.10.in-addr.arpa.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
-                2015020601 ;   Serial - date by convention
-                1h         ;   Refresh
-                3m	       ;   Retry
-                1w         ;   Expire
-                1m         ;   Negative cache TTL
-                )
+$ORIGIN 223.10.in-addr.arpa.
+@    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
+                2015031501 ; Serial - date by convention
+                1h         ; Refresh
+                3m         ; Retry
+                1w         ; Expire
+                1m         ; Negative cache TTL
+)
 
-		NS		gw01.ffda.
-		NS		gw02.ffda.
-			
+; authoritative nameservers
+            NS    gw01.ffda.
+            NS    gw02.ffda.
+
 ; gateways
-1.0		PTR		gw01.ffda.
-2.0		PTR		gw02.ffda.
-3.0		PTR		gw03.ffda.
-4.0		PTR		gw04.ffda.
+1.0         PTR   gw01.ffda.
+2.0         PTR   gw02.ffda.
+3.0         PTR   gw03.ffda.
+4.0         PTR   gw04.ffda.
 
 ; nextnode
-254.254		PTR		nextnode.ffda.
+254.254     PTR   nextnode.ffda.
 
 ; servers
-1.1		PTR		luelistan.ffda.
-2.1		PTR		freefile.ffda.
-5.1		PTR		nethack.ffda.
+1.1         PTR   luelistan.ffda.
+2.1         PTR   freefile.ffda.
+5.1         PTR   nethack.ffda.
+

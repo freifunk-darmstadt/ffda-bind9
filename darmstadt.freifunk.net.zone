@@ -8,7 +8,7 @@ $ORIGIN darmstadt.freifunk.net.
                 600        ; Negative cache TTL
 )
 
-; authorative nameservers
+; authoritative nameservers
             NS    ns1.darmstadt.freifunk.net.
             NS    ns2.darmstadt.freifunk.net.
 

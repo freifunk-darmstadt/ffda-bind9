@@ -1,23 +1,25 @@
 $TTL 1h
-a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.  IN  SOA  ns1.ffda. info.darmstadt.freifunk.net. (
-                2015012800 ;   Serial - date by convention
-                1h         ;   Refresh
-                3m	       ;   Retry
-                1w         ;   Expire
-                1m         ;   Negative cache TTL
-                )
+$ORIGIN a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.
+@    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
+                2015031501 ; Serial - date by convention
+                1h         ; Refresh
+                3m         ; Retry
+                1w         ; Expire
+                1m         ; Negative cache TTL
+)
 
-		NS		gw01.ffda.
-		NS		gw02.ffda.
-			
+; authoritative namesevers
+            NS    gw01.ffda.
+            NS    gw02.ffda.
+            
 ; gateways
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		gw01.ffda.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		gw02.ffda.
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		gw03.ffda.
-4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		gw04.ffda.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw01.ffda.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw02.ffda.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw03.ffda.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw04.ffda.
 
 ; nextnode
-f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		PTR		nextnode.ffda.
+f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    nextnode.ffda.
 
 ; servers
 
