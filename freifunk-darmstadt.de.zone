@@ -1,0 +1,20 @@
+$TTL 3600
+$ORIGIN freifunk-darmstadt.de.
+@		IN	SOA	ns1.darmstadt.freifunk.net.  info.darmstadt.freifunk.net. (
+				2015031501	; Serial - date by convention
+				10800		; Refresh
+				600			; Retry
+				604800		; Expire
+				600			; Negative cache TTL
+)
+
+			NS		ns1.darmstadt.freifunk.net.
+			NS		ns2.darmstadt.freifunk.net.
+
+
+@			A		176.221.46.85
+			MX		10 mail.linuxlounge.net.
+
+firmware	CNAME	firmware.darmstadt.freifunk.net.
+map			CNAME	map.darmstadt.freifunk.net.
+wiki		CNAME	wiki.darmstadt.freifunk.net.
