@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015031701 ; Serial - date by convention
+                2015031702 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -30,7 +30,7 @@ gw04        A     130.83.198.1
 gw01.icvpn  CNAME gw03
 gw02.icvpn  CNAME gw04
 
-@           A     176.221.46.85 
+@           A     130.83.198.1 
             MX    10 mail.linuxlounge.net.
 chat        CNAME gw01
 firmware    CNAME gw03
