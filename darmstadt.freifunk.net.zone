@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015031703 ; Serial - date by convention
+                2015032201 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -19,12 +19,23 @@ ns2         A     78.47.64.91
 
 gw01        A     78.47.64.91
             AAAA  2a01:4f8:d16:1fc5::2
+ip4.gw01    A     78.47.64.91
+ip6.gw01    AAAA  2a01:4f8:d16:1fc5::2
+
 gw02        A     5.199.142.236
             AAAA  2001:4ba0:fffa:1dc::1
+ip4.gw02    A     5.199.142.236
+ip6.gw02    AAAA  2001:4ba0:fffa:1dc::1
+
 gw03        A     46.252.25.132
             AAAA  2a00:1158:3::fc
+ip4.gw03    A     46.252.25.132
+ip6.gw03    AAAA  2a00:1158:3::fc
+
 gw04        A     130.83.198.1
             AAAA  2001:41b8:83f:4242::ffda
+ip4.gw04    A     130.83.198.1
+ip6.gw04    AAAA  2001:41b8:83f:4242::ffda
 
 ; legacy icvpn cnames (deprecated as of 2015-03-15)
 gw01.icvpn  CNAME gw03
