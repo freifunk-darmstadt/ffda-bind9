@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN ffda.
 @    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
-                2015040802 ; Serial - date by convention
+                2015042501 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -56,6 +56,8 @@ updates.services CNAME gw03
 openwrt.mirror   CNAME gw01
 
 ; servers
+2048             A     10.223.1.7
+                 A     fdca:ffee:ffda:0:ba27:ebff:fe0d:c3d0
 cats             CNAME gw02
 chat             CNAME gw01
 freefile         A     10.223.1.2
@@ -67,4 +69,3 @@ maps             CNAME gw04
 nethack          A     10.223.1.5
 smokeping        CNAME gw01
 wiki             CNAME gw01
-
