@@ -69,3 +69,5 @@ maps             CNAME gw04
 nethack          A     10.223.1.5
 smokeping        CNAME gw01
 wiki             CNAME gw01
+catsheep         A     10.223.1.8
+nodegame         CNAME catsheep          
