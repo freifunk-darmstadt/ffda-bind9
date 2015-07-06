@@ -38,6 +38,7 @@ ip4.gw04    A     130.83.198.1
 ip6.gw04    AAAA  2001:41b8:83f:4242::ffda
 
 docker01    A     144.76.144.86
+taiga       CNAME docker01
 
 ; legacy icvpn cnames (deprecated as of 2015-03-15)
 gw01.icvpn  CNAME gw03
