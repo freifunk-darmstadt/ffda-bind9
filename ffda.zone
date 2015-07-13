@@ -33,6 +33,8 @@ gw03        A     10.223.0.3
             AAAA  fdca:ffee:ffda::3
 gw04        A     10.223.0.4
             AAAA  fdca:ffee:ffda::4
+gw05        A     10.223.0.5
+            AAAA  fdca:ffee:ffda::5
 
 ; nextnode
 nextnode    A     10.223.254.254
