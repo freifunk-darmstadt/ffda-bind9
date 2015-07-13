@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN 223.10.in-addr.arpa.
 @    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
-                2015071301 ; Serial - date by convention
+                2015071302 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -17,7 +17,7 @@ $ORIGIN 223.10.in-addr.arpa.
 2.0         PTR   gw02.ffda.
 3.0         PTR   gw03.ffda.
 4.0         PTR   gw04.ffda.
-5.0         PTR   gw05.ffda
+5.0         PTR   gw05.ffda.
 
 ; nextnode
 254.254     PTR   nextnode.ffda.
