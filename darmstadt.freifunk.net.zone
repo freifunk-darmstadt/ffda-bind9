@@ -12,8 +12,8 @@ $ORIGIN darmstadt.freifunk.net.
             NS    ns1.darmstadt.freifunk.net.
             NS    ns2.darmstadt.freifunk.net.
 
-ns1         A     109.239.48.160
-            AAAA  2a00:1158:3::19a
+ns1         A     46.252.25.132
+            AAAA  2a00:1158:3::fc
 ns2         A     78.47.64.91
             AAAA  2a01:4f8:d16:1fc5::2
 
