@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN freifunk-darmstadt.de.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015031502 ; Serial - date by convention
+                2015080302 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -11,6 +11,7 @@ $ORIGIN freifunk-darmstadt.de.
 ; authoritative nameservers
             NS    ns1.darmstadt.freifunk.net.
             NS    ns2.darmstadt.freifunk.net.
+            NS    ns3.darmstadt.freifunk.net.
 
 @           A     176.221.46.85
             MX    10 mail.linuxlounge.net.
