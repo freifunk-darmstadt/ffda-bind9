@@ -60,7 +60,8 @@ openwrt.mirror   CNAME gw01
 ; servers
 2048             A     10.223.1.7
                  AAAA  fdca:ffee:ffda:0:ba27:ebff:fe0d:c3d0
-cats             CNAME gw02
+api              CNAME api
+catsheep         A     10.223.1.8
 chat             CNAME gw01
 freefile         A     10.223.1.2
 lg               CNAME gw04
@@ -68,8 +69,8 @@ luelistan        A     10.223.1.1
 mumble           CNAME gw01
 map              CNAME gw04
 maps             CNAME gw04
+nodegame         CNAME catsheep
 nethack          A     10.223.1.5
 smokeping        CNAME gw01
 wiki             CNAME gw01
-catsheep         A     10.223.1.8
-nodegame         CNAME catsheep          
+

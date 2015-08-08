@@ -53,6 +53,7 @@ gw02.icvpn  CNAME gw04
 @           A     130.83.198.1
             AAAA  2001:41b8:83f:4242::ffda
             MX    10 mail.linuxlounge.net.
+api         CNAME gw04
 chat        CNAME gw01
 firmware    CNAME gw03
 lg          CNAME gw04
