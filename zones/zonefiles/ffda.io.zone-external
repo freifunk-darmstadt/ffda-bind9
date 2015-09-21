@@ -1,0 +1,62 @@
+$TTL 1h
+$ORIGIN ffda.io.
+@    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
+                2015092601 ; Serial - date by convention
+                1h         ; Refresh
+                3m         ; Retry
+                1w         ; Expire
+                1m         ; Negative cache TTL
+)
+
+; authoritative nameservers
+            NS    ns1
+            NS    ns2
+            NS    ns3
+            NS    ns4
+
+ns1         A     185.66.194.57
+            AAAA  2a03:2260:118::1
+ns2         A     185.66.194.58
+            AAAA  2a03:2260:118::2
+ns3         A     185.66.194.59
+            AAAA  2a03:2260:118::3
+ns4         A     185.66.194.60
+            AAAA  2a03:2260:118::4
+
+
+; gateways
+gw01        A     185.66.194.57
+            AAAA  2a03:2260:118::1
+gw02        A     185.66.194.58
+            AAAA  2a03:2260:118::2
+gw03        A     185.66.194.59
+            AAAA  2a03:2260:118::3
+gw04        A     185.66.194.60
+            AAAA  2a03:2260:118::4
+
+; servers
+srv01       A     78.47.64.91
+            AAAA  2a01:4f8:d16:1fc5::2
+srv02       A     144.76.144.86
+
+; nextnode n/a
+
+; node
+node        NS    ns1
+            NS    ns2
+            NS    ns3
+            NS    ns4
+
+; infrastructure n/a
+
+; servers
+2048             AAAA  2a03:2260:118:0:ba27:ebff:fe0d:c3d0
+api              CNAME gw04
+; catsheep
+chat             CNAME srv01
+lg               CNAME gw04
+mumble           CNAME srv01
+map              CNAME gw04
+; nodegame
+; nethack
+wiki             CNAME srv01
