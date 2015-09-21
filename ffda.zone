@@ -45,13 +45,6 @@ node        NS    ns4
             NS    ns1
 
 ; infrastructure
-; legacy naming
-0.ntp            CNAME gw01
-updates          CNAME gw03
-uwh.updates      CNAME gw01
-openwrt.proxy    CNAME gw01
-
-; new naming scheme
 ntp.services     CNAME gw01
 updates.services CNAME gw03
 
