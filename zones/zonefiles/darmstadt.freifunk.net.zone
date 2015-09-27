@@ -58,8 +58,8 @@ chat        CNAME srv01
 firmware    CNAME gw03
 lg          CNAME gw04
 map         CNAME gw04
-mumble      CNAME gw01
-oldwiki     CNAME gw01
+mumble      CNAME srv01
+oldwiki     CNAME srv01
 taiga       CNAME srv02
-wiki        CNAME gw01
+wiki        CNAME srv01
 
