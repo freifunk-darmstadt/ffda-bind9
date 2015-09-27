@@ -1,0 +1,31 @@
+// zones only queryable from internal networks
+
+zone "ffda.io" {
+    type master;
+    file "/etc/bind/zones/zonefiles/ffda.io.zone-internal";
+};
+
+zone "node.ffda.io" {
+    type master;
+    file "/etc/bind/zones/zonefiles/node.ffda.io.zone-internal";
+};
+
+zone "ffda" {
+    type master;
+    file "/etc/bind/zones/zonefiles/ffda.zone";
+};
+
+zone "node.ffda" {
+    type master;
+    file "/etc/bind/zones/zonefiles/node.ffda.zone";
+};
+
+zone "223.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/zonefiles/10.223.zone";
+};
+
+zone "a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
+    type master;
+    file "/etc/bind/zones/zonefiles/fdca:ffee:ffda.zone";
+};

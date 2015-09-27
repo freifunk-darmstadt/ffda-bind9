@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.
 @    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
-                2015071301 ; Serial - date by convention
+                2015092601 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -11,13 +11,14 @@ $ORIGIN a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa.
 ; authoritative namesevers
             NS    gw01.ffda.
             NS    gw02.ffda.
-            
+	    NS    gw03.ffda.
+	    NS    gw04.ffda.
+
 ; gateways
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw01.ffda.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw02.ffda.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw03.ffda.
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw04.ffda.
-5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    gw05.ffda.
 
 ; nextnode
 f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    nextnode.ffda.

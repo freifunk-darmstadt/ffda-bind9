@@ -1,7 +1,7 @@
 $TTL 1h
-$ORIGIN ffda.
-@    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
-                2015092102 ; Serial - date by convention
+$ORIGIN ffda.io.
+@    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
+                2015092601 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -33,37 +33,36 @@ gw03        A     10.223.0.3
             AAAA  fdca:ffee:ffda::3
 gw04        A     10.223.0.4
             AAAA  fdca:ffee:ffda::4
-gw05        A     10.223.0.5
-            AAAA  fdca:ffee:ffda::5
+
+; servers
+srv01       A     10.223.1.64
+            AAAA  fdca:ffee:ffda::1:64
 
 ; nextnode
 nextnode    A     10.223.254.254
             AAAA  fdca:ffee:ffda::ffff
 
 ; node
-node        NS    ns2
-                  ns3
-                  ns4
+node        NS    ns1
+            NS    ns2
+            NS    ns3
+            NS    ns4
 
 ; infrastructure
 ntp.services     CNAME gw01
 updates.services CNAME gw03
 
-openwrt.mirror   CNAME gw01
+openwrt.mirror   CNAME srv01
 
 ; servers
 2048             A     10.223.1.7
                  AAAA  fdca:ffee:ffda:0:ba27:ebff:fe0d:c3d0
-api              CNAME api
+api              CNAME gw04
 catsheep         A     10.223.1.8
-chat             CNAME gw01
-freefile         A     10.223.1.2
+chat             CNAME srv01
 lg               CNAME gw04
-luelistan        A     10.223.1.1
-mumble           CNAME gw01
+mumble           CNAME srv01
 map              CNAME gw04
-maps             CNAME gw04
 nodegame         CNAME catsheep
 nethack          A     10.223.1.5
-wiki             CNAME gw01
-
+wiki             CNAME srv01

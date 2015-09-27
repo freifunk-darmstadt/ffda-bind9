@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015092101 ; Serial - date by convention
+                2015092601 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -20,11 +20,15 @@ ns2         A     78.47.64.91
 ns3         A     130.83.198.1
             AAAA  2001:41b8:83f:4242::ffda
 
+@           A     130.83.198.1
+            AAAA  2001:41b8:83f:4242::ffda
+            MX    10 mail.linuxlounge.net.
+
 ; gateways
-gw01        A     78.47.64.91
-            AAAA  2a01:4f8:d16:1fc5::2
-ip4.gw01    A     78.47.64.91
-ip6.gw01    AAAA  2a01:4f8:d16:1fc5::2
+gw01        A     213.202.212.153
+            AAAA  2001:4ba0:babe:659::
+ip4.gw01    A     213.202.212.153
+ip6.gw01    AAAA  2001:4ba0:babe:659::
 
 gw02        A     130.83.125.113
             AAAA  2001:41b8:83f:2013:0:8253:7d71:0
@@ -41,19 +45,21 @@ gw04        A     130.83.198.1
 ip4.gw04    A     130.83.198.1
 ip6.gw04    AAAA  2001:41b8:83f:4242::ffda
 
-; other hosts
-docker01    A     144.76.144.86
+; servers
+srv01       A     78.47.64.91
+            AAAA  2a01:4f8:d16:1fc5::2
+srv02       A     144.76.144.86
 
-@           A     130.83.198.1
-            AAAA  2001:41b8:83f:4242::ffda
-            MX    10 mail.linuxlounge.net.
+; infrastructure n/a
+
+; services
 api         CNAME gw04
-chat        CNAME gw01
+chat        CNAME srv01
 firmware    CNAME gw03
 lg          CNAME gw04
 map         CNAME gw04
 mumble      CNAME gw01
 oldwiki     CNAME gw01
-taiga       CNAME docker01
+taiga       CNAME srv02
 wiki        CNAME gw01
 

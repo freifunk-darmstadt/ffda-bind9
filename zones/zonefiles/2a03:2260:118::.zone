@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN 8.1.1.0.0.6.2.2.3.0.a.2.ip6.arpa.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015081701 ; Serial - date by convention
+                2015092601 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -11,9 +11,10 @@ $ORIGIN 8.1.1.0.0.6.2.2.3.0.a.2.ip6.arpa.
 ; authoritative namesevers
             NS    ns1.darmstadt.freifunk.net.
             NS    ns2.darmstadt.freifunk.net.
-	    NS    ns3.darmstadt.freifunk.net.
-            
+            NS    ns3.darmstadt.freifunk.net.
+
 ; gateways
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    exit1.darmstadt.freifunk.net.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    exit2.darmstadt.freifunk.net.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    exit3.darmstadt.freifunk.net.
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR    exit4.darmstadt.freifunk.net.
