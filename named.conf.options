@@ -36,6 +36,8 @@ options {
 		2a03:2260:118::/48;
 	};
 
+	allow-transfer { "none"; };
+
 	edns-udp-size 1400;
 	max-udp-size 1400;
 
