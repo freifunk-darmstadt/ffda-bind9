@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN ffda.
 @    IN    SOA    ns1.ffda. info.darmstadt.freifunk.net. (
-                2015092601 ; Serial - date by convention
+                2015092701 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -49,7 +49,7 @@ node        NS    ns1
             NS    ns4
 
 ; infrastructure
-ntp.services     CNAME gw01
+ntp.services     CNAME srv01
 updates.services CNAME gw03
 
 openwrt.mirror   CNAME srv01
