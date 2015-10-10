@@ -61,6 +61,7 @@ lg          CNAME gw04
 map         CNAME gw04
 mumble      CNAME srv01
 oldwiki     CNAME srv01
+stats       CNAME graphite.rammhold.de.
 taiga       CNAME srv02
 wiki        CNAME srv01
 
