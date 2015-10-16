@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015100901 ; Serial - date by convention
+                2015101601 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -18,10 +18,10 @@ ns1         A     46.252.25.132
 ns2         A     78.47.64.91
             AAAA  2a01:4f8:d16:1fc5::2
 ns3         A     130.83.198.1
-            AAAA  2001:41b8:83f:4242::ffda
+            AAAA  2001:41b8:83f:4242::c601
 
 @           A     130.83.198.1
-            AAAA  2001:41b8:83f:4242::ffda
+            AAAA  2001:41b8:83f:4242::c601
             MX    10 mail.linuxlounge.net.
 
 ; gateways
@@ -41,9 +41,9 @@ ip4.gw03    A     46.252.25.132
 ip6.gw03    AAAA  2a00:1158:3::fc
 
 gw04        A     130.83.198.1
-            AAAA  2001:41b8:83f:4242::ffda
+            AAAA  2001:41b8:83f:4242::c601
 ip4.gw04    A     130.83.198.1
-ip6.gw04    AAAA  2001:41b8:83f:4242::ffda
+ip6.gw04    AAAA  2001:41b8:83f:4242::c601
 
 ; servers
 srv01       A     78.47.64.91
