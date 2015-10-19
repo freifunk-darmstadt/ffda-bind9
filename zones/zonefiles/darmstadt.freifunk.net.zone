@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2015101601 ; Serial - date by convention
+                2015101901 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -55,6 +55,7 @@ srv02       A     144.76.144.86
 ; services
 api         CNAME gw04
 boost       CNAME gw04
+betterplace CNAME gw04
 chat        CNAME srv01
 firmware    CNAME gw03
 lg          CNAME gw04
@@ -63,5 +64,6 @@ mumble      CNAME srv01
 oldwiki     CNAME srv01
 stats       CNAME graphite.rammhold.de.
 taiga       CNAME srv02
+spenden     CNAME gw04
 wiki        CNAME srv01
 
