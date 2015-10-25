@@ -29,7 +29,7 @@ options {
 	recursion yes;
 	allow-recursion {
 		127.0.0.1/32;
-		::1/32;
+		::1/128;
 
 		10.223.0.0/16;
 		fdca:ffee:ffda::/48;
