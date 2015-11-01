@@ -1,0 +1,18 @@
+$TTL 3600
+$ORIGIN bb.ffda.io.
+@    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
+                2015110100 ; Serial - date by convention
+                10800      ; Refresh
+                600        ; Retry
+                604800     ; Expire
+                600        ; Negative cache TTL
+)
+
+; authoritative nameservers
+            NS    ns1.ffda.io.
+            NS    ns2.ffda.io.
+            NS    ns3.ffda.io.
+            NS    ns4.ffda.io.
+
+nynex-roof                        AAAA 2a00:e60:7e02:ffda::20
+sb-roof                           AAAA 2a00:e60:7e02:ffda::21
