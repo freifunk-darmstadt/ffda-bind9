@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN ffda.io.
 @    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
-                2015110100 ; Serial - date by convention
+                2015112000 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -76,3 +76,4 @@ map              CNAME gw04
 ; nethack
 spenden          CNAME gw04
 wiki             CNAME srv01
+wissen           AAAA  2a03:2260:118::1:10
