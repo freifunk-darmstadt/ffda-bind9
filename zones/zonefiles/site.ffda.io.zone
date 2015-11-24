@@ -26,3 +26,5 @@ bph-offloader-gw                  A    46.243.86.253
 
 hirtengrundhalle-offloader        A    95.131.100.66
 hirtengrundhalle-offloader-gw     A    95.131.100.65
+
+tagungshalle-offloader            CNAME 64367-tagungshotel.dynu.com.
