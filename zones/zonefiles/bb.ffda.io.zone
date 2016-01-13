@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN bb.ffda.io.
 @    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
-                2016011300 ; Serial - date by convention
+                2016011301 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -14,6 +14,7 @@ $ORIGIN bb.ffda.io.
             NS    ns3.ffda.io.
             NS    ns4.ffda.io.
 
+nynex-mgmt                        AAAA 2a00:e60:7e02:ffda::2
 nynex-roof                        AAAA 2a00:e60:7e02:ffda::20
 sb-roof                           AAAA 2a00:e60:7e02:ffda::21
 sb-stau                           AAAA 2a00:e60:7e02:ffda::22
