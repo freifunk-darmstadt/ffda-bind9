@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN ffda.io.
 @    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
-                2016011800 ; Serial - date by convention
+                2016012000 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -73,7 +73,7 @@ updates.services CNAME gw03
 api              CNAME gw04
 betterplace      CNAME gw04
 bingo            A     172.20.25.5
-                 AAAA  fdc0:4992:6a6d::1
+                 AAAA  fd21:a07e:735e::5
 boost            CNAME gw04
 cats             CNAME rnbwnrds
 catsheep         A     10.223.1.8
