@@ -49,6 +49,7 @@ ip6.gw04    AAAA  2001:41b8:83f:4242::c601
 srv01       A     78.47.64.91
             AAAA  2a01:4f8:d16:1fc5::2
 srv02       A     144.76.144.86
+            AAAA  2a01:4f8:192:32f4:5054:ff:fe10:ea3b
 srv03       A     85.10.201.47
             AAAA  2a01:4f8:a0:43eb::beef
 
