@@ -1,7 +1,7 @@
 $TTL 1h
 $ORIGIN ffda.io.
 @    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
-                2016011800 ; Serial - date by convention
+                2016030500 ; Serial - date by convention
                 1h         ; Refresh
                 3m         ; Retry
                 1w         ; Expire
@@ -60,6 +60,9 @@ node        NS    ns1
             NS    ns4
 
 ; infrastructure n/a
+
+; saltstack testhosts
+test        CNAME www1.darmstadt.freifunk.net.
 
 ; servers
 2048             AAAA  2a03:2260:118:0:ba27:ebff:fe0d:c3d0
