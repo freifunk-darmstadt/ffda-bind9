@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2016062000 ; Serial - date by convention
+                2016062500 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -56,15 +56,15 @@ icvpn1      A     82.195.73.48
 
 ; physical hosts
 belle       A     82.195.73.1
-            AAAA  2001:67c:2ed8::1:0
+            AAAA  2001:67c:2ed8::1:1
 rumple      A     82.195.73.2
-            AAAA  2001:67c:2ed8::2:0
+            AAAA  2001:67c:2ed8::2:1
 
 ; guests
 salt        A     82.195.73.10
-            AAAA  2001:67c:2ed8::10:0
+            AAAA  2001:67c:2ed8::10:1
 www1        A     82.195.73.11
-            AAAA  2001:67c:2ed8::11:0
+            AAAA  2001:67c:2ed8::11:1
 
 ; saltstack testhosts
 test        CNAME www1
