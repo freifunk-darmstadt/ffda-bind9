@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN darmstadt.freifunk.net.
 @    IN    SOA    ns1.darmstadt.freifunk.net. info.darmstadt.freifunk.net. (
-                2016071301 ; Serial - date by convention
+                2016071302 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -69,6 +69,8 @@ www1        A     82.195.73.11
             AAAA  2001:67c:2ed8::11:1
 ldap        A     82.195.73.12
             AAAA  2001:67c:2ed8::12:1
+forum       A     82.195.73.13
+            AAAA  2001:67c:2ed8::13:1
 
 ; servers
 srv01       A     78.47.64.91
