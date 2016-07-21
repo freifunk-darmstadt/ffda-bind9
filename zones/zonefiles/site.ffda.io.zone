@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN site.ffda.io.
 @    IN    SOA    ns1.ffda.io. info.darmstadt.freifunk.net. (
-                2015112400 ; Serial - date by convention
+                2016072100 ; Serial - date by convention
                 10800      ; Refresh
                 600        ; Retry
                 604800     ; Expire
@@ -24,7 +24,6 @@ bp-halle-offloader-gw             A    130.83.77.254
 bph-offloader                     A    46.243.86.254
 bph-offloader-gw                  A    46.243.86.253
 
-hirtengrundhalle-offloader        A    95.131.100.66
-hirtengrundhalle-offloader-gw     A    95.131.100.65
+bismarckstr-offloader             A    94.16.95.202
 
 tagungshotel-offloader            CNAME 64367-tagungshotel.dynu.com.
