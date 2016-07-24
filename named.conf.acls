@@ -1,4 +1,0 @@
-include "/etc/bind/acls/local.conf";
-include "/etc/bind/acls/internal.conf";
-include "/etc/bind/acls/internal-transfer.conf";
-include "/etc/bind/acls/external-transfer.conf";

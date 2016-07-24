@@ -1,2 +1,0 @@
-include "/etc/bind/views/internal.conf";
-include "/etc/bind/views/any.conf";
